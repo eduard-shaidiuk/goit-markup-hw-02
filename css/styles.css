@@ -66,7 +66,7 @@ body {
 
 /* HERO */
 .hero-title {
-  color: var(--black-color);
+  color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -74,16 +74,25 @@ body {
   letter-spacing: 0.02em;
 }
 
+.hero {
+  background-color: #2e2f42;
+}
+
 /* BUTTONS AND FILTERS-BUTTON */
 .button {
   color: var(--white-color);
   background-color: var(--accent-color);
-
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 
 .filters .link {
