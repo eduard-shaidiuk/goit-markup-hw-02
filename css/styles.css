@@ -162,6 +162,10 @@ body {
   text-align: center;
 }
 
+.team-list .linl {
+  background-color: #ffffff;
+}
+
 /* OUR APPROACH */
 .feature-list .title {
   color: var(--title-text-color);
