@@ -170,6 +170,8 @@ body {
 
 /* Стили для footer */
 .footer {
+  color: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .footer .logo-footer {
@@ -182,13 +184,13 @@ body {
   color: #4d5ae5;
 }
 
-.footer .spanfooter {
-  color: #2e2f42;
+.spanfooter {
+  color: #f4f4fd;
 }
 
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #f4f4fd;
 }
