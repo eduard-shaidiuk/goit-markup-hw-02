@@ -1,101 +1,224 @@
-ul,
-ol {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-}
+/* Общие стили */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-.list {
-  list-style: none;
-}
-/* #region header */
-.addressstyled {
-  font-style: normal;
+
+/* Стили для header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f4f4fd;
 }
 
-.header {
+.nav {
+  display: flex;
+  align-items: center;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
   text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
 }
-.colortext {
+
+.logo .colortext {
   color: #2e2f42;
 }
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 40px;
+}
+
 .menu-link {
-  font-family: "Roboto", sans-serif;
+  margin-left: 20px;
+}
+
+.menu-link a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
-.header-contacts {
+
+.menu-link a:hover,
+.menu-link a:focus {
+  color: #404bbf;
+}
+
+.addressstyled {
   font-style: normal;
-  font-weight: 400;
+}
+
+.header-contacts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-contacts li {
+  margin-bottom: 10px;
+}
+
+.header-contacts a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-right: 40px;
+  text-decoration: none;
 }
-.header-contacts:hover {
+
+.header-contacts a:hover,
+.header-contacts a:focus {
   color: #404bbf;
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
-  color: #404bbf;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
-}
-/* #endregion header */
-/* #region hero */
+/* Стили для секции hero */
 .hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 80px 20px;
 }
+
 .hero-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
-.hero-button {
+
+.button {
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
-  background: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
   cursor: pointer;
+  margin-top: 20px;
 }
-.hero-button:hover,
-.hero-button:focus {
-  color: #fff;
-  background: #404bbf;
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
-/* #endregion hero */
-/* #region footer */
+
+/* Стили для секции features */
+.section {
+  padding: 60px 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-list li {
+  width: 22%;
+}
+
+.feature-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 10px;
+}
+
+.feature-list p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Стили для секции what are we doing */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 40px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li {
+  width: 30%;
+}
+
+.list img {
+  width: 100%;
+  height: auto;
+}
+
+/* Стили для секции our team */
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-list li {
+  width: 22%;
+  text-align: center;
+}
+
+.team-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 10px;
+}
+
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Стили для footer */
 .footer {
-  background: #2e2f42;
+  background-color: #f4f4fd;
+  text-align: center;
+  padding: 40px 20px;
 }
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -104,18 +227,18 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.logo-footer .spanfooter {
+  color: #2e2f42;
 }
 
 .text-footer {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #434455;
 }
-
-.spanfooter {
-  color: #f4f4fd;
-}
-/* #endregion hero */
