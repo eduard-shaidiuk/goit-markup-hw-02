@@ -173,6 +173,39 @@ body {
   color: #434455;
 }
 
+.title {
+  font-weight: 500; /* жирность шрифта */
+  font-size: 20px; /* размер шрифта */
+  line-height: 1.2; /* высота строки */
+  letter-spacing: 0.02em; /* интервал между буквами */
+  color: #2e2f42; /* цвет текста */
+}
+
+/* Стили для параграфа в секции OUR FEATURES */
+.p-h2-our-features {
+  font-size: 16px; /* размер шрифта */
+  line-height: 1.5; /* высота строки */
+  letter-spacing: 0.02em; /* интервал между буквами */
+  color: #434455; /* цвет текста */
+}
+
+/* Стили для заголовка в секции OUR TEAM */
+.team-list .title {
+  font-weight: 500; /* жирность шрифта */
+  font-size: 20px; /* размер шрифта */
+  line-height: 1.2; /* высота строки */
+  letter-spacing: 0.02em; /* интервал между буквами */
+  color: #2e2f42; /* цвет текста */
+}
+
+/* Стили для параграфа в секции OUR TEAM */
+.team-list .text {
+  font-size: 16px; /* размер шрифта */
+  line-height: 1.5; /* высота строки */
+  letter-spacing: 0.02em; /* интервал между буквами */
+  color: #434455; /* цвет текста */
+}
+
 /* Стили для footer */
 .footer {
   color: #2e2f42;
