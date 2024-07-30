@@ -68,6 +68,7 @@ body {
 /* Стили для первой секции */
 .hero {
   background-color: #2e2f42;
+  text-align: center;
 }
 
 .hero-title {
@@ -85,6 +86,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .button:hover,
