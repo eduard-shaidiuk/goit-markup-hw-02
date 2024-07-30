@@ -10,7 +10,6 @@ body {
 /* Стили для header */
 .header {
   background-color: #f4f4fd;
-  padding: 20px 0;
 }
 
 .nav .logo {
@@ -29,10 +28,6 @@ body {
 
 .nav .menu {
   list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
 }
 
 .nav .menu-link a {
@@ -55,8 +50,6 @@ body {
 
 .header-contacts {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .header-contacts a {
@@ -75,8 +68,6 @@ body {
 /* Стили для первой секции */
 .hero {
   background-color: #2e2f42;
-  text-align: center;
-  padding: 100px 0;
 }
 
 .hero-title {
@@ -94,9 +85,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
-  border: none;
-  padding: 10px 20px;
 }
 
 .button:hover,
@@ -106,13 +94,10 @@ body {
 
 /* Стили для второй секции */
 .section .hidden {
-  display: none;
 }
 
 .feature-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .feature-list .title {
@@ -146,23 +131,17 @@ body {
 
 .list {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .list img {
-  width: 360px;
 }
 
 /* Стили для четвертой секции */
 .team-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .team-list img {
-  width: 264px;
 }
 
 .team-list .title {
@@ -182,8 +161,6 @@ body {
 
 /* Стили для footer */
 .footer {
-  text-align: center;
-  padding: 20px 0;
 }
 
 .footer .logo-footer {
