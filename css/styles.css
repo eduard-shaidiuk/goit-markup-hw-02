@@ -52,6 +52,12 @@ body {
 .header-contacts:hover {
   color: #404bbf;
 }
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: #404bbf;
+}
+
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
@@ -65,7 +71,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -94,20 +100,22 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
-}
-.colortext {
   color: #4d5ae5;
 }
+
 .text-footer {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.spanfooter {
   color: #f4f4fd;
 }
 /* #endregion hero */
