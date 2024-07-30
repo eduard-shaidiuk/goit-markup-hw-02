@@ -43,6 +43,7 @@ body {
 /* HEADER NAVIGATION AND CONTACTS */
 .site-nav .link {
   font-weight: 500;
+  color: #2e2f42;
 }
 
 .site-nav .link:hover {
@@ -50,8 +51,11 @@ body {
 }
 
 .head-adress {
-  /* color: #404bbf; */
   font-style: normal;
+}
+
+.contacts .link {
+  color: #434455;
 }
 
 .contacts .link:hover {
