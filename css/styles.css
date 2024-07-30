@@ -110,7 +110,14 @@ body {
   color: #2e2f42;
 }
 
-.feature-list p {
+.p-h2-our-features {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.feature-list {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
