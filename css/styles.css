@@ -54,7 +54,7 @@ body {
   font-style: normal;
 }
 
-.contacts link:hover {
+.contacts .link:hover {
   color: #404bbf;
 }
 
