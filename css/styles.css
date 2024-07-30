@@ -46,7 +46,8 @@ body {
   color: #2e2f42;
 }
 
-.site-nav .link:hover {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #404bbf;
 }
 
@@ -58,7 +59,8 @@ body {
   color: #434455;
 }
 
-.contacts .link:hover {
+.contacts .link:hover,
+.contacts .link:focus {
   color: #404bbf;
 }
 
