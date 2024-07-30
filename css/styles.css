@@ -146,3 +146,15 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .studio {
+  color: #f4f4fd;
+}
+
+.p-footer {
+  color: var(--sec-bg-color);
+}
