@@ -36,6 +36,10 @@ body {
   color: #4d5ae5;
 }
 
+.studio {
+  color: #2e2f42;
+}
+
 /* HEADER NAVIGATION AND CONTACTS */
 .site-nav .link {
   color: var(--title-text-color);
@@ -48,12 +52,22 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
-  color: var(--accent-color);
+.head-adress {
+  color: #404bbf;
+  font-style: normal;
+}
+
+.head-adress link:hover,
+.head-adress link:focus {
+  color: #404bbf;
+}
+
+.li-adress link:hover,
+.li-adress link:focus {
+  color: #404bbf;
 }
 
 /* HERO */
