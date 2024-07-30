@@ -42,31 +42,19 @@ body {
 
 /* HEADER NAVIGATION AND CONTACTS */
 .site-nav .link {
-  color: var(--title-text-color);
   font-weight: 500;
 }
 
-.contacts .link {
-  color: var(--primary-text-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:hover {
   color: #404bbf;
 }
 
 .head-adress {
-  color: #404bbf;
+  /* color: #404bbf; */
   font-style: normal;
 }
 
-.head-adress link:hover,
-.head-adress link:focus {
-  color: #404bbf;
-}
-
-.li-adress link:hover,
-.li-adress link:focus {
+.contacts link:hover {
   color: #404bbf;
 }
 
