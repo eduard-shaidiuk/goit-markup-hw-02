@@ -162,6 +162,10 @@ body {
   text-align: center;
 }
 
+.team-list {
+  background-color: #ffffff;
+}
+
 .team-list .linl {
   background-color: #ffffff;
 }
