@@ -14,6 +14,10 @@ body {
   list-style: none;
 }
 /* #region header */
+.adresstyle {
+  font-style: normal;
+}
+
 .header {
 }
 .logo {
@@ -26,7 +30,7 @@ body {
   text-transform: uppercase;
 }
 .colortext {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .menu-link {
   font-family: "Roboto", sans-serif;
