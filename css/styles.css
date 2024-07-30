@@ -128,7 +128,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.section-3-title {
+.section-third-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -136,7 +136,7 @@ body {
   color: #2e2f42;
 }
 
-.section-3-p {
+.section-third-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -144,7 +144,7 @@ body {
 }
 
 /* FEATURE LIST */
-.section-3-ul .link {
+.section-third-ul .link {
   background-color: #ffffff;
 }
 
