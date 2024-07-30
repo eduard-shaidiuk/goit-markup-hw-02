@@ -27,21 +27,13 @@ body {
 /* LOGO */
 .logo {
   text-decoration: none;
-}
-
-.logo .studio,
-.logo .web {
-  text-decoration: none;
-  color: var(--title-text-color);
-  font-family: "Raleway", cursive;
-  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-}
-
-.logo .web {
-  color: var(--accent-color);
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 /* HEADER NAVIGATION AND CONTACTS */
